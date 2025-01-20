@@ -226,7 +226,7 @@ var responsiveChart = () => {
             };
             var tooltip_html = (x, y, span1, span2) => {
                 var html = '';
-                html += '<div class="gitmessage" style="top:' + y + 'px;left:' + x + 'px;position: fixed;z-index:9999"><div class="angle-wrapper" style="display:block;"><span>' + span1 + '&nbsp;</span><span>' + span2 + ' 次上传</span></div></div>';
+                html += '<div class="gitmessage" style="top:' + y + 'px;left:' + x + 'px;position: fixed;z-index:9999"><div class="angle-wrapper" style="display:block;"><span>' + span1 + '&nbsp;</span><span>' + span2 + ' commit</span></div></div>';
                 return html
             };
             var github_canvas_box = () => {
