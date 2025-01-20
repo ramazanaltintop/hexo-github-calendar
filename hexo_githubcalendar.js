@@ -3,7 +3,7 @@ function GithubCalendar(git_githubapiurl,git_color,git_user){
         var github_canlendar = (git_user,git_githubapiurl, git_color) => {
             var git_fixed = 'fixed';
             var git_px = 'px';
-            var git_month = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+            var git_month = ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'];
             var git_monthchange = [];
             var git_oneyearbeforeday = '';
             var git_thisday = '';
