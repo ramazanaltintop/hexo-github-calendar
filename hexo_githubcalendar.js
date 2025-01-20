@@ -81,10 +81,10 @@ var responsiveChart = () => {
         if (document.body.clientWidth > 700) {
           github_calendar_ctx.font = "600  Arial";
           github_calendar_ctx.fillStyle = '#aaa';
-          github_calendar_ctx.fillText("日", 0, 1.9 * linemaxwitdh);
-          github_calendar_ctx.fillText("二", 0, 3.9 * linemaxwitdh);
-          github_calendar_ctx.fillText("四", 0, 5.9 * linemaxwitdh);
-          github_calendar_ctx.fillText("六", 0, 7.9 * linemaxwitdh);
+          github_calendar_ctx.fillText("Gün", 0, 1.9 * linemaxwitdh);
+          github_calendar_ctx.fillText("2", 0, 3.9 * linemaxwitdh);
+          github_calendar_ctx.fillText("4", 0, 5.9 * linemaxwitdh);
+          github_calendar_ctx.fillText("6", 0, 7.9 * linemaxwitdh);
           var monthindexlist = github_calendar_c.width / 24;
           for (var index in git_monthchange) {
             github_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.7 * linemaxwitdh);
