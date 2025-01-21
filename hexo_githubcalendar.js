@@ -59,7 +59,7 @@ var responsiveChart = () => {
         height = github_calendar_c.height = 9 * 0.96 * github_calendar_c.width / git_data.length;
         retinaCanvas(github_calendar_c, github_calendar_ctx, ratio)
         var linemaxwitdh = height / 9;
-        var lineminwitdh = 0.8 * linemaxwitdh;
+        var lineminwitdh = 0.6 * linemaxwitdh;
         var setposition = {x: 0.02 * width, y: 0.025 * width};
         for (var week in git_data) {
           weekdata = git_data[week];
