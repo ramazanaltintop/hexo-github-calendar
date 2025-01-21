@@ -45,7 +45,7 @@ function GithubCalendar(git_githubapiurl,git_color,git_user){
 var responsiveChart = () => {
         if(document.getElementById("gitcanvas")){
         var git_tooltip_container = document.getElementById('git_tooltip_container');
-        var ratio = window.devicePixelRatio || 1
+        var ratio = 0.8
         var git_x = '';
         var git_y = '';
         var git_span1 = '';
