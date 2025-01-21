@@ -87,7 +87,7 @@ var responsiveChart = () => {
           github_calendar_ctx.fillText("6", 0, 7.9 * linemaxwitdh);
           var monthindexlist = github_calendar_c.width / 24;
           for (var index in git_monthchange) {
-            github_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.5 * linemaxwitdh);
+            github_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.7 * linemaxwitdh);
             monthindexlist = monthindexlist + github_calendar_c.width / 12
           }
         }
